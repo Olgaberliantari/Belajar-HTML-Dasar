@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Form Pendaftaran</title>
+    </head>
+    <body>
+        <h1>Formulir Pendaftaran</h1>
+        <br>
+        <form>
+            <label for="namalengkap">Nama Lengkap </label>
+            <input type="text" id="namalengkap">
+            <br><br>
+            <label for="tanggallahir">Tanggal Lahir </label>
+            <input type="tanggallahir" id="tanggallahir">
+            <br><br>
+            <label for="asalsekolah">Asal Sekolah </label>
+            <input type="asalsekolah" id="asalsekolah">
+            <label for="jeniskelamin">Jenis Kelamin </label>
+            <input type="radio" id="p" name="jeniskelamin"><label for="p">P</label>
+            <input type="radio" id="l" name="jeniskelamin"><label for="l">L</label>
+            <br><br>
+            <label for="asalsekolah">Asal Sekolah </label>
+            <input type="asalsekolah" id="asalsekolah">
+            <label for="kelas">Kelas </label>
+            <input type="kelas" id="kelas">
+            <br><br>
+            <label for="alamat">Alamat </label>
+            <input type="alamat" id="alamat">
+            <br><br>
+            <label for="no.telepon">No.Telepon </label>
+            <input type="no.telepon" id="no.telepon">
+            <br><br>
+            <label for="namaorangtua">Nama Orang Tua</label>
+            <input type="namaorangtua" id="namaorangtua">
+            <br><br>
+            <label for="pekerjaanorangtua">Pekerjaan Orang Tua</label>
+            <input type="pekerjaanorantua" id="pekerjaanorangtua">
+            <br><br>
+            <label for="programkursus">Program Kursus</label>
+            <input type="programkursus" id="programkursus">
+            <br><br>
+            <label for="harikursus">Hari Kursus</label>
+            <input type="radio" id="senin & kamis" name="harikursus"><label for="senin & kamis">Senin & Kamis</label>
+            <input type="radio" id="selasa & jumat" name="harikursus"><label for="selasa & jumat">Selasa & Jumat</label>
+            <input type="radio" id="rabu & sabtu" name="harikursus"><label for="rabu & sabtu">Rabu & Sabtu</label>
+            <br><br>
+            <label for="waktukursus">Waktu Kursus</label>
+            <input type="radio" id="14.00 - 15.30" name="waktukursus"><label for="14.00 - 15.30">14.00 - 15.30</label>
+            <input type="radio" id="16.00 - 17.30" name="waktukursus"><label for="16.00 - 17.30">16.00 - 17.30</label>
+            <input type="radio" id="19.00 - 20.30" name="waktukursus"><label for="19.00 - 20.30">19.00 - 20.30</label>
+            <br><br><br><br><br>
+            <p>Mengetahui,<br>Orang Tua/Wali</p>
+            <br><br><br>
+            <p>.................................</p>
+  
+        </form>
+    </body>
+</html>
